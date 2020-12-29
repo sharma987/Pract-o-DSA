@@ -1,0 +1,17 @@
+def linear(arr,k):
+    for i in range(len(arr)):
+        if arr[i]==k:
+            return i
+    else:
+        return -1
+
+
+
+arr=[3,6,1,5,2,8,9,7,4]
+k=8
+n=linear(arr,k)
+if n==-1:
+    print("Not found")
+
+else:
+    print("found at "+str(n))
